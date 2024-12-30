@@ -1,0 +1,48 @@
+.img-container {
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+
+.img-format {
+    width: 5rem;
+    height: 5rem;
+    padding-right: 10px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 .75rem rgba(0, 0, 0, .5));
+}
+.logo-name{
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-decoration: none;
+    color: #ddd6cb;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.navbar-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.nav-menu {
+     display: flex;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+.menu-list {
+    color: #ddd6cb;
+    font-weight: 800;
+    padding: 2rem 1rem;
+}
+a.active {
+    background: linear-gradient(90deg, #f9572a, #ffc905);
+    color: #fff;
+    padding: 5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

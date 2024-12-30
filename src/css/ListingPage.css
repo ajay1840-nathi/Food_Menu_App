@@ -1,0 +1,252 @@
+/* Base styles */
+.header-content {
+  margin: -11rem auto 0;
+  max-width: 75rem;
+  color: #ddd6cb;
+  font-size: 1.5rem;
+}
+
+.text-content {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.text-highlight {
+  background: linear-gradient(90deg, #f9572a, #ff8a05);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.share-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  filter: drop-shadow(0 0 .75rem rgba(125, 118, 118, 0.5));
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+.search-input {
+  color: white;
+  padding: 8px;
+  box-shadow: 0px 5px 10px 0px rgb(255 220 220 / 50%);
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+.no-recipe-found {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  margin-left: 95px;
+  margin-top: 40px;
+  margin-bottom: 49px;
+}
+
+.card-wrapper {
+  flex: 0 1 calc(33.333% - 1rem);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 475px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+  overflow: hidden;
+  color: #ddd6cb;
+  background: linear-gradient(90deg, #2c1e19, #25200f);
+}
+
+.card-body-custom {
+  background: linear-gradient(90deg, #2c1e19, #25200f);
+}
+
+.imageContainer {
+  height: 280px;
+  width: 400px;
+  inset: 0px;
+  color: transparent;
+}
+
+.card_title {
+  font-size: 1.5rem;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+.card_subtitle {
+  font-size: .75rem;
+  color: #cfa69b;
+  font-style: italic;
+}
+
+.btn {
+  margin: 1rem 0 0 14rem;
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  color: #fff;
+  font-weight: 700;
+  border: none !important;
+}
+
+.summary {
+  color: rgb(202, 196, 196);
+}
+.spinner-container{
+  display: flex;
+  justify-content: center;
+}
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .header-content {
+    max-width: 70rem;
+    font-size: 1.4rem;
+    margin: -6rem auto 0;
+  }
+
+  .text-content {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-content {
+    max-width: 60rem;
+    font-size: 1.3rem;
+    margin: -5rem auto 0;
+  }
+
+  .text-content {
+    font-size: 36px;
+  }
+
+  .share-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    max-width: 50rem;
+    font-size: 1.2rem;
+    margin: -4rem auto 0;
+  }
+
+  .text-content {
+    font-size: 32px;
+  }
+
+  .share-button {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-content {
+    max-width: 40rem;
+    font-size: 1.1rem;
+    margin: -3rem auto 0;
+  }
+
+  .text-content {
+    font-size: 28px;
+  }
+
+  .share-button {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-content {
+    max-width: 30rem;
+    font-size: 1rem;
+    margin: -2rem auto 0;
+  }
+
+  .text-content {
+    font-size: 24px;
+  }
+
+  .share-button {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Pagination buttons */
+.page-link {
+  background-color: #EF8E11; 
+  color: white; 
+  border: 1px solid #EF8E11; 
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Hover state */
+.page-link:hover {
+  background-color:#EF8E11 ;
+  border-color: #EF8E11; 
+}
+
+/* Active page */
+.page-link.active {
+  background-color: #CA4800;
+  border-color: #CA4800;
+}
+
+/* Disabled state */
+.page-link.disabled {
+  background-color: #CCCCCC;
+  color: #A8A8A8; 
+  border-color: #CCCCCC;
+  cursor: not-allowed;
+}
+
+
+@media (max-width: 576px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .page-link {
+    margin: 5px 0;
+  }
+}

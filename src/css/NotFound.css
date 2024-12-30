@@ -1,0 +1,35 @@
+.not-found-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.not-found-container {
+    flex: 1;
+    max-width: 42%;
+    margin-top: -10.1rem;
+
+}
+
+.not-found-content {
+    flex: 1;
+    max-width: 57%; 
+    margin-top: -15rem
+
+}
+.not-found-content p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ddd6cb;
+    font-family: cursive;
+
+}
+.not-found-button{
+margin-top: 1rem;
+padding: 0.5rem 1rem;
+border-radius: 0.5rem;
+background: linear-gradient(90deg, #f9572a, #ff9b05);
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+}

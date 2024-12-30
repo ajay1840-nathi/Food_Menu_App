@@ -1,0 +1,72 @@
+.header_Sec {
+    display: flex;
+    padding: 2rem 1rem;
+    gap: 3rem;
+    margin: -14rem auto auto auto;
+    width: 65%;
+}
+
+.container {
+    position: relative;
+    width: 25rem !important;
+    height: 20rem;
+}
+
+.img_container {
+    position: relative;
+    width: 26rem;
+    height: 20rem;
+    border-radius: 2%;
+}
+
+.header_Text {
+    padding: .5rem 1rem 0;
+    color: #ddd6cb;
+    max-width: 40rem;
+}
+
+.created_by {
+    font-size: 1.5rem;
+    color: #cfa69b;
+    font-style: italic;
+}
+
+.summary {
+    font-size: 15px;
+}
+
+
+
+.instructions_content {
+    overflow-y: scroll;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-color: #6e6464;
+    color: #13120f;
+    border-radius: 8px;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .5);
+    padding: 2rem;
+    max-width: 50rem;
+    height: 35rem;
+    white-space: pre-wrap;
+    margin: 2rem auto;
+}
+
+.instructions_content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.instructions_content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.instructions_content::-webkit-scrollbar-thumb {
+    background: rgb(148, 145, 145);
+    border-radius: 10px;
+}
+
+.instructions_content::-webkit-scrollbar-thumb:hover {
+    background: #6c6363;
+}

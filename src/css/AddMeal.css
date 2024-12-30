@@ -1,0 +1,147 @@
+.meal_header {
+    margin: -12rem 17rem 5rem;
+    max-width: 75rem;
+    color: #ddd6cb;
+    font-size: 1.5rem;
+}
+
+.add_highlight {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+form {
+    margin-left: 17rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form_row {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #454952;
+    background: #1c2027;
+    font-size: 1.25rem;
+    font-family: Montserrat, sans-serif;
+    color: #ddd6cb;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #958989;
+}
+
+textarea {
+    white-space: pre-line;
+    height: 100px;
+    resize: vertical;
+    display: block;
+    width: 50%;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #454952;
+    background: #1c2027;
+    font-size: 1.25rem;
+    font-family: Montserrat, sans-serif;
+    color: #ddd6cb;
+}
+
+.submit-button {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    color: #fff;
+    padding: 15px 31px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: -8rem 0 0 30rem;
+}
+
+a:link {
+    text-decoration: none !important;
+
+}
+
+.submit-button:hover {
+    background-color: darkorange;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.img_container {
+    display: flex;
+
+}
+
+.img_preview {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #a4abb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a4abb9;
+    position: relative;
+}
+
+h5 {
+    color: rgb(134, 124, 124);
+}
+
+.form-group .format_input {
+    width: 50%;
+}
+
+format_img {
+    width: 45%;
+}
+
+.file {
+    position: relative;
+    height: 30px;
+    width: 100px;
+}
+
+.file>input[type="file"] {
+    position: absoulte;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.file>label {
+    height: 38px;
+    position: absolute;
+    left: 17px;
+    top: 0px;
+    width: 158px;
+    color: #0f0e0e;
+    text-align: center;
+    border: 0;
+    padding: .5rem 1.5rem;
+    background: #a4abb9;
+    border-radius: 2px;
+    cursor: pointer;
+    font: inherit;
+}
